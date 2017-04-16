@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "My personal ESLint config",
   "main": "index.js",
+  "scripts": {
+      "postversion": "git push && git push --tags"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vansosnin/eslint-config-geth.git"
