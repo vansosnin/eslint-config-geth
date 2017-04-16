@@ -4,7 +4,7 @@
   "description": "My personal ESLint config",
   "main": "index.js",
   "scripts": {
-      "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",

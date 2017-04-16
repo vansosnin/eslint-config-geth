@@ -13,6 +13,9 @@ or
 
 ## Usage
 Add to your `.eslintrc`:
-`{
+
+```
+{
     "extends": "geth"
-}`
+}
+```
