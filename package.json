@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/vansosnin/eslint-config-geth#readme",
   "peerDependencies": {
+    "babel-eslint": ">= 7.0.0",
     "eslint": ">=3.19.0",
     "eslint-plugin-babel": ">=4.1.1",
     "eslint-plugin-chai-expect": ">=1.1.1",
