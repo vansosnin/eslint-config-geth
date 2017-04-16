@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-geth",
+  "version": "0.0.1",
+  "description": "My personal ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vansosnin/eslint-config-geth.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Ivan Sosnin <vansosnin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vansosnin/eslint-config-geth/issues"
+  },
+  "homepage": "https://github.com/vansosnin/eslint-config-geth#readme",
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-babel": ">=4.1.1",
+    "eslint-plugin-chai-expect": ">=1.1.1",
+    "eslint-plugin-jsx-a11y": ">=4.0.0",
+    "eslint-plugin-mocha": ">=4.9.0",
+    "eslint-plugin-no-empty-blocks": ">=0.0.2",
+    "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-react": ">=6.10.3"
+  }
+}

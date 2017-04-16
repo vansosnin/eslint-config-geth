@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: vansosnin@gmail.com
+  api_key:
+    secure: Pfd0uAvGHdOWAGKgFOxvZxr27fYMhIhATbC1nlLcR8P2K0dt8a+Ed0IA8ALy6KSq9rbL4MdFj3v1bIAUK6+kEr8gWACOh3f90q3oG93QL05ournhjTCM0fww7qCeRNB9gLgJuDfldPUVaiRf7NaIMF0ShafyExvnkDhidwNZ74TcJbWmcR17YE2FwyzIdccbVQepFv+AFt0+05dCL7IsRaXhzDnUGsPJWFCb+mzrFLp5LTVufgO//M4ni8TFArrDFxL92gM/MtwJicl4QclytCo6klGbmFDil1bonrBFi+M5Yw4cpdoKjiew4OwHCXmen7xwodZE9korAXNqMxC8Fi63SBRjhY+xlqgwv2aERUPv+eMWMolkEdr0s171lMn88IF9Ve/sQ0X5ftOj//1l/4J0cF+ZpIqKlovIHuJE1ErbmnUfBYWvHQCWycZ7MB+Tv6l4eVkj683w43r2gcszx4uLIsvtWXLySdu4yiDcZisotHJJbLA9bbeAHDADy4Tw1MWC8FVAjVmxj4rbF4JgzZNvFCA3b50NuTHgY2WTPwuFil/mSXzglBB8WIGU8SmcLQeru659Hbn3C6u7rNo1EbGyrjZWrJFfI9hZKFdD/Uh4OgNToxl4boFaWOeihtPUUvQalG4cXTmjetrK12zhZDtZgZ23SPa46RJ9HNBbKhQ=
+  on:
+    tags: true
+    repo: vansosnin/eslint-config-geth
