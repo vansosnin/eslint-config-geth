@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-geth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My personal ESLint config",
   "main": "index.js",
   "scripts": {
