@@ -6,6 +6,8 @@ My personal ESLint config. Part of my [boilerplate](https://github.com/vansosnin
 
 ## Install
 `npm i --save-dev eslint-config-geth`
+or
+`yarn add --dev eslint-config-geth`
 
 ## Usage
 Add to your `.eslintrc`:
