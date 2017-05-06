@@ -201,11 +201,11 @@ module.exports = {
             'allowAllCaps': false
         }],
         'react/jsx-space-before-closing': [1, 'always'],
-        'react/jsx-tag-spacing': {
+        'react/jsx-tag-spacing': [1, {
             'closingSlash': 'never',
             'beforeSelfClosing': 'always',
             'afterOpening': 'never'
-        },
+        }],
         'react/jsx-wrap-multilines': 1,
 
         // jsx-a11y
