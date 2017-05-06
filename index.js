@@ -200,7 +200,6 @@ module.exports = {
         'react/jsx-pascal-case': [1, {
             'allowAllCaps': false
         }],
-        'react/jsx-space-before-closing': [1, 'always'],
         'react/jsx-tag-spacing': [1, {
             'closingSlash': 'never',
             'beforeSelfClosing': 'always',
