@@ -91,7 +91,7 @@ module.exports = {
         'no-trailing-spaces': 1,
         'operator-linebreak': [1, 'before', { 'overrides': { '+': 'after', '=': 'after' } }],
         'padded-blocks': [1, 'never'],
-        'semi': 0, // Отключено потому что отрабатывает не так как мы хотим в jsx и стрелочных функциях
+        'semi': 0, // because works in wrong way for me in jsx and arrow functions
         'semi-spacing': [1, { 'before': false, 'after': true }],
         'space-before-blocks': [1, 'always'],
         'space-before-function-paren': [1, 'never'],
@@ -195,7 +195,7 @@ module.exports = {
             'eventHandlerPropPrefix': 'on'
         }],
         'react/jsx-no-bind': [2, {
-            'ignoreRefs': true // todo: повод задуматься
+            'ignoreRefs': true // todo: remove & refactoring
         }],
         'react/jsx-pascal-case': [1, {
             'allowAllCaps': false
@@ -214,7 +214,7 @@ module.exports = {
         'jsx-a11y/href-no-hash': [1, {
             'components': ['Link']
         }],
-        'tabindex-no-positive': 1,
+        'tabindex-no-positive': 0, // todo: enable when it won't force use tabindex
 
         // tests
         'mocha/no-exclusive-tests': 2,
