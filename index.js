@@ -57,6 +57,7 @@ module.exports = {
         'yield-star-spacing': [2, 'after'],
         'yoda': [1, 'never'],
         'no-empty': 1,
+
         // variables
         'id-length': [2, {'min': 1}],
         'no-param-reassign': [2, {'props': false}],
@@ -65,6 +66,7 @@ module.exports = {
         'no-shadow-restricted-names': 2,
         'no-unused-vars': [2, { 'vars': 'all', 'args': 'none' }],
         'one-var': [1, { 'initialized': 'never' }],
+
         // codestyle
         'quotes': [1, 'single', {
 			allowTemplateLiterals: true
@@ -97,27 +99,123 @@ module.exports = {
         'space-infix-ops': 1,
         'space-unary-ops': [1, { 'words': true, 'nonwords': false }],
         'spaced-comment': [1, 'always', { 'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ','] }],
+
         // typos
         'no-extra-semi': 2,
         'comma-dangle': [2, 'never'],
+
         // debugging info
         'no-alert': 2,
         'no-console': 2,
         'no-debugger': 2,
         'no-undef': 2,
+
         // nodejs
         'no-path-concat': 2,
         'no-new-require': 2,
+
         // react
         'react/prop-types': 1,
-        'react/jsx-boolean-value': [2, 'always'],
-        'react/jsx-indent': [1, 4],
-        'react/jsx-no-duplicate-props': [1, { 'ignoreCase': false }],
-        'react/jsx-no-undef': 2,
-        'react/jsx-uses-vars': 2,
         'react/no-direct-mutation-state': 2,
         'react/no-is-mounted': 2,
         'react/no-unknown-property': 2,
+        'react/no-children-prop': 2,
+        'react/no-danger-with-children': 2,
+        'react/no-deprecated': 1,
+        'react/no-render-return-value': 2,
+        'react/no-string-refs': 2,
+        'react/no-unescaped-entities': 2,
+        'react/require-render-return': 2,
+        'react/no-array-index-key': 1,
+        'react/no-multi-comp': 1,
+        'react/no-unused-prop-types': 1,
+        'react/prefer-es6-class': [2, 'always'],
+        'react/require-default-props': 0,
+        'react/self-closing-comp': [1, {
+            'component': true,
+            'html': true
+        }],
+        'react/void-dom-elements-no-children': 2,
+        'react/sort-comp': [1, {
+            order: [
+                'static-methods',
+                'lifecycle',
+                'handlers',
+                'everything-else',
+                'render'
+            ],
+            groups: {
+                lifecycle: [
+                    'propTypes',
+                    'defaultProps',
+                    'state',
+                    'displayName',
+                    'contextTypes',
+                    'childContextTypes',
+                    'mixins',
+                    'statics',
+                    'constructor',
+                    'getDefaultProps',
+                    'getInitialState',
+                    'getChildContext',
+                    'componentWillMount',
+                    'componentDidMount',
+                    'componentWillReceiveProps',
+                    'shouldComponentUpdate',
+                    'componentWillUpdate',
+                    'componentDidUpdate',
+                    'componentWillUnmount'
+                ],
+                handlers: [
+                    '/^_?on.+$/',
+                    '/^_?handle.+$/'
+                ]
+            }
+        }],
+
+        // react-jsx
+        'react/jsx-boolean-value': [2, 'always'],
+        'react/jsx-indent': [1, 4],
+        'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
+        'react/jsx-no-undef': 2,
+        'react/jsx-uses-vars': 2,
+        'react/jsx-key': 2,
+        'react/jsx-no-target-blank': 2,
+        'react/jsx-curly-spacing': [1, 'always', {
+            'allowMultiline': true,
+            'spacing': {
+                'objectLiterals': 'always'
+            }
+        }],
+        'react/jsx-equals-spacing': [1, 'never'],
+        'react/jsx-filename-extension': [1, { 'extensions': ['.jsx'] }],
+        'react/jsx-first-prop-new-line': [1, 'multiline'],
+        'react/jsx-handler-names': [1, {
+            'eventHandlerPrefix': '_handle',
+            'eventHandlerPropPrefix': 'on'
+        }],
+        'react/jsx-no-bind': [2, {
+            'ignoreRefs': true // todo: повод задуматься
+        }],
+        'react/jsx-pascal-case': [1, {
+            'allowAllCaps': false
+        }],
+        'react/jsx-space-before-closing': [1, 'always'],
+        'react/jsx-tag-spacing': {
+            'closingSlash': 'never',
+            'beforeSelfClosing': 'always',
+            'afterOpening': 'never'
+        },
+        'react/jsx-wrap-multilines': 1,
+
+        // jsx-a11y
+        'jsx-a11y/alt-text': 1,
+        'jsx-a11y/img-redundant-alt': 1,
+        'jsx-a11y/href-no-hash': [1, {
+            'components': ['Link']
+        }],
+        'tabindex-no-positive': 1,
+
         // tests
         'mocha/no-exclusive-tests': 2,
         'chai-expect/missing-assertion': 2,
@@ -145,6 +243,7 @@ module.exports = {
     },
     'plugins': [
         'react',
+        'jsx-a11y',
         'babel',
         'promise',
         'mocha',
