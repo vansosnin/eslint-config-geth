@@ -181,7 +181,7 @@ module.exports = {
         'react/jsx-uses-vars': 2,
         'react/jsx-key': 2,
         'react/jsx-no-target-blank': 2,
-        'react/jsx-curly-spacing': [1, 'always', {
+        'react/jsx-curly-spacing': [1, 'never', {
             'allowMultiline': true,
             'spacing': {
                 'objectLiterals': 'always'
