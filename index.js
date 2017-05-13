@@ -182,10 +182,7 @@ module.exports = {
         'react/jsx-key': 2,
         'react/jsx-no-target-blank': 2,
         'react/jsx-curly-spacing': [1, 'never', {
-            'allowMultiline': true,
-            'spacing': {
-                'objectLiterals': 'always'
-            }
+            'allowMultiline': true
         }],
         'react/jsx-equals-spacing': [1, 'never'],
         'react/jsx-filename-extension': [1, { 'extensions': ['.jsx'] }],
