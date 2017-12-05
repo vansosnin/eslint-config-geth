@@ -1,4 +1,4 @@
-# eslint-config-geth
+# eslint-config-geth [NOT SUPPORTED]
 
 [![npm version](https://badge.fury.io/js/eslint-config-geth.svg)](https://badge.fury.io/js/eslint-config-geth)
 
